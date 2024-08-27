@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewCalculadora</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>   
+<body>
+
+    <div>
+     <input class="display" placeholder="">
+     <button class="gray-button" onclick="Limpar()" >AC</button>
+     <button class="gray-button" onclick="numero('+-')" >+-</button>
+     <button class="blue" onclick="numero('/')" >/</button>
+     <button class="blue" onclick="numero('*')" >*</button>
+     <button class="blackButton" onclick="numero('7')" >7</button>
+     <button class="blackButton" onclick="numero('8')" >8</button>
+     <button class="blackButton" onclick="numero('9')" >9</button>
+     <button class="blue" onclick="numero('-')" >-</button>
+     <button class="blackButton" onclick="numero('4')" >4</button>
+     <button class="blackButton" onclick="numero('5')" >5</button>
+     <button class="blackButton" onclick="numero('6')" >6</button>
+     <button class="blue" onclick="numero('+')">+</button>
+     <button class="blackButton" onclick="numero('1')" >1</button>
+     <button class="blackButton" onclick="numero('2')" >2</button>
+     <button class="blackButton" onclick="numero('3')" >3</button>
+     <button class="igual" onclick="calcular()" >=</button>
+     <button class="blackButton zero" onclick="numero('0')" >0</button>
+     <button class="blackButton" onclick="numero('.')" >.</button>
+    
+    </div>
+</body>
+<Script src="Script.js"></Script>
+</html>
